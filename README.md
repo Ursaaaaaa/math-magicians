@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math magicians App
+# Math Magicians
 
 > A single page app consisting of a calculator and a section for random scientific quotes.
 
