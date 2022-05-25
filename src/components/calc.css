@@ -1,49 +1,49 @@
 body {
-    padding: 0;
-    margin: 0;
-    background-color: bisque;
-  }
-  
-  .mainContainer {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10%;
-  }
-  
-  .displayInputs {
-    background-color: #858693;
-    width: 40%;
-    height: 90px;
-  }
-  
-  .calcDiv {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    width: 40%;
-  }
-  
-  .btn {
-    font-size: 30px;
-    background-color: #e0e0e0;
-    border: 1px solid #D3D3D3;
-    height: 99px;
-  }
-  
-  .btn:active {
-    background-color: #9C9898;
-  }
-  
-  .btnZero {
-    height: 99px;
-    font-size: 20px;
-    background-color: #e0e0e0;
-    border: 1px solid #D3D3D3;
-    grid-column: 1/3;
-  }
-  
-  .btnaction {
-    background-color: #f5913e;
-  }
+  padding: 0;
+  margin: 0;
+  background-color: bisque;
+}
+
+.mainContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.displayInputs {
+  background-color: #858693;
+  width: 40%;
+  height: 90px;
+}
+
+.calcDiv {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 40%;
+}
+
+.btn {
+  font-size: 30px;
+  background-color: #e0e0e0;
+  border: 1px solid #d3d3d3;
+  height: 99px;
+}
+
+.btn:active {
+  background-color: #9c9898;
+}
+
+.btnZero {
+  height: 99px;
+  font-size: 20px;
+  background-color: #e0e0e0;
+  border: 1px solid #d3d3d3;
+  grid-column: 1/3;
+}
+
+.btnaction {
+  background-color: #f5913e;
+}
