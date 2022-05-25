@@ -15,14 +15,14 @@ body {
   
   .displayInputs {
     background-color: #858693;
-    width: 50%;
+    width: 40%;
     height: 90px;
   }
   
   .calcDiv {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    width: 50%;
+    width: 40%;
   }
   
   .btn {
