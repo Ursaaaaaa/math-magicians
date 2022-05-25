@@ -28,19 +28,19 @@ body {
   .btn {
     font-size: 30px;
     background-color: #e0e0e0;
-    border: 1px solid rgb(211, 211, 211);
+    border: 1px solid #D3D3D3;
     height: 99px;
   }
   
   .btn:active {
-    background-color: rgb(156, 152, 152);
+    background-color: #9C9898;
   }
   
   .btnZero {
     height: 99px;
     font-size: 20px;
     background-color: #e0e0e0;
-    border: 1px solid lightgray;
+    border: 1px solid #D3D3D3;
     grid-column: 1/3;
   }
   
