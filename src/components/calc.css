@@ -17,6 +17,9 @@ body {
   background-color: #858693;
   width: 40%;
   height: 90px;
+}
+
+p {
   font-size: 40px;
   display: flex;
   align-items: flex-end;
