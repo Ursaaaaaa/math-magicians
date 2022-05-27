@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Lato&family=Orbitron&family=Poppins&display=swap');
+
 body {
+  font-family: 'Orbitron', sans-serif;
   padding: 0;
   margin: 0;
   background-color: bisque;
@@ -17,6 +20,9 @@ body {
   background-color: #858693;
   width: 40%;
   height: 90px;
+}
+
+p {
   font-size: 40px;
   display: flex;
   align-items: flex-end;
@@ -31,6 +37,7 @@ body {
 }
 
 .btn {
+  font-family: 'Orbitron', sans-serif;
   font-size: 30px;
   background-color: #e0e0e0;
   border: 1px solid #d3d3d3;
@@ -42,6 +49,7 @@ body {
 }
 
 .btnZero {
+  font-family: 'Orbitron', sans-serif;
   height: 99px;
   font-size: 30px;
   background-color: #e0e0e0;
@@ -50,5 +58,6 @@ body {
 }
 
 .btnaction {
+  font-family: 'Orbitron', sans-serif;
   background-color: #f5913e;
 }
