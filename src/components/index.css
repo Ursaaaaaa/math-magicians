@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Lato&family=Orbitron&family=Poppins&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .CalcContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 10%;
+    margin-top: -25px;
+  }
+  
+  .calcParagraph {
+    font-size: larger;
+    padding-left: 10%;
+    padding-top: 5%;
+  }
+  
+  .displayInputs {
+    background-color: #858693;
+    width: 50%;
+    height: 60px;
+    text-align: end;
+    color: #fff;
+  }
+  
+  .calcDiv {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 50%;
+  }
+  
+  .btn {
+    font-size: 30px;
+    background-color: #e0e0e0;
+    border: 1px solid rgb(211, 211, 211);
+    height: 60px;
+  }
+  
+  .btn:active {
+    background-color: rgb(156, 152, 152);
+  }
+  
+  .btnZero {
+    height: 60px;
+    font-size: 20px;
+    background-color: #e0e0e0;
+    border: 1px solid lightgray;
+    grid-column: 1/3;
+  }
+  
+  .btnoperator {
+    background-color: #f5913e;
+  }
+  
+  h2 {
+    padding-right: 15px;
+    margin-top: 4%;
+    font-size: x-large;
+  }
