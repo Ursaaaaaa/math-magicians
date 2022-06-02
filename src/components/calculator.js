@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './calc.css';
 import calculate from '../logic/calculate';
-import CalcPageText from './calcupage';
 
 const Calculator = () => {
   const initState = {
